@@ -18,7 +18,7 @@ public class Gmail {
 
 		FileInputStream fileInput = null;
 		try {
-			fileInput = new FileInputStream(file);
+			fileInput = new FileInputStream(file)
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
